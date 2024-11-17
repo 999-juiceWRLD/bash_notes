@@ -26,7 +26,7 @@ $ABC
 &QAID
 ```
 
-## Getting a User Input
+## Getting a User Input
 
 With `read` keyword, you can create an input variable and use it.
 
@@ -37,7 +37,7 @@ read varname
 echo you entered $varname
 ```
 
-## Unsetting a Variable
+## Unsetting a Variable
 
 The unset command directs a shell to delete a variable and its stored data from list of variables. It can be used as follows:
 
