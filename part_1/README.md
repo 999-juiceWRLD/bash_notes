@@ -56,7 +56,7 @@ pwd
 # output: /Users/ankaraunifedaisi/developer/bash_tutorial/part_1
 ```
 
-## How to make a script?
+## How to make a script?
 
 `#!/bin/bash` is called shebang line indicates that the Bash shell executes.
 
