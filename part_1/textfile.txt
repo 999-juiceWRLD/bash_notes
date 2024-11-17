@@ -1,0 +1,4 @@
+all right, you should see this text if you run cat command in terminal.
+
+there's more by the way. read all the lines with cat.
+
