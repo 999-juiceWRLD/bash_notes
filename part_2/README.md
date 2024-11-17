@@ -72,4 +72,4 @@ readonly e=2.718281828459
 ```
 
 * command substitution in bash?
-$(...) and (``) ?
+`$(...)` and `(``)` ?
