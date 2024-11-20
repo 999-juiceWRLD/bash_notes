@@ -1,0 +1,4 @@
+this is going to be the first line of my file, output.txt
+as long as you don't type END
+it will work!
+let's say END now
