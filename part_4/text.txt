@@ -1,0 +1,3 @@
+hello buddy.
+
+u should look for keyword "python" or any word used in this file, using grep function.
