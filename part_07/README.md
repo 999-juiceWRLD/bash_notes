@@ -68,6 +68,10 @@ If you are comparing strings, you can use these test conditions:
 | `$a != $b` | `$a` is different from `$b` |
 | `-z $a`    | `$a` is empty               |
 
+- `string1 = string2` and `string1 == string2` - The equality operator returns true if the operands are equal.
+  - Use the `=` operator with the test `[` command.
+  - Use the `==` operator with the `[[` command for pattern matching.
+
 There are also conditions for file type check:
 
 | Condition | Equivalent to true when |
