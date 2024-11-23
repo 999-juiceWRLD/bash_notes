@@ -72,6 +72,8 @@ If you are comparing strings, you can use these test conditions:
   - Use the `=` operator with the test `[` command.
   - Use the `==` operator with the `[[` command for pattern matching.
 
+check for substrings?
+
 There are also conditions for file type check:
 
 | Condition | Equivalent to true when |
