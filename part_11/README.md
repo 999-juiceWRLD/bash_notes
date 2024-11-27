@@ -161,3 +161,62 @@ Fields: 3 Last Field: banana
 Fields: 2 Last Field: dog
 Fields: 4 Last Field: test
 ```
+
+`length()` function returns the number of characters in given string. To see which lines have more characters than any given number in `/etc/shells`:
+
+```sh
+$ awk 'length($0) > 7' /etc/shells
+
+# /bin/bash
+# /bin/csh
+# /bin/dash
+# /bin/ksh
+# /bin/tcsh
+# /bin/zsh
+# /opt/homebrew/bin/bash
+
+$ awk 'length($0) < 7' /etc/shells
+# Output is an empty line
+
+$ awk 'length($0) < 8' /etc/shells
+# Output: /bin/sh
+```
+
+Simple if condition with `awk`:
+
+```sh
+$ echo -e "10\n25\n50\n75\n100" | awk '{if($1 > 50) print $NF}'
+# 75
+# 100
+$ echo -e "10\n25\n50\n75\n100" | awk '{if ($1 > 49) print $NF}'
+# 50
+# 75
+# 100
+```
+
+Or using a file:
+
+```sh
+$ awk '{ if($1 > 50) print $1}' numbers.txt
+```
+
+### Looping in `awk`
+
+```sh
+$ awk 'BEGIN{ for (i = 1; i <= 10; i++) print "The square root of", i, "is", i * i }'
+
+# The square root of 1 is 1
+# The square root of 2 is 4
+# The square root of 3 is 9
+# The square root of 4 is 16
+# The square root of 5 is 25
+# The square root of 6 is 36
+# The square root of 7 is 49
+# The square root of 8 is 64
+# The square root of 9 is 81
+# The square root of 10 is 100
+```
+
+**How to print out all directories/files that start & end with a character or string?**
+
+### Files Starting with a Certain String
