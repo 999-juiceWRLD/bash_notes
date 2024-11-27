@@ -26,7 +26,7 @@ $ cat /etc/passwd
 
 $ awk -F ":" '{print $1}' /etc/passwd
 
-#nobody
+# nobody
 # root
 # daemon
 # ...
