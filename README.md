@@ -8,6 +8,7 @@ An introduction to Bash. I used the resources (but not limited to):
 4. [Javatpoint](https://www.javatpoint.com/bash)
 5. [Bash Scripting Tutorial for Beginners](https://www.youtube.com/watch?v=tK9Oc6AEnR4&t=333s)
 6. [Linux Simply](https://www.linuxsimply.com)
+7. [DistroTube's Channel](https://www.youtube.com/@DistroTube)
 
 `tree -d -L 2 .`: To control the depth of the tree use the `-L` option.
 
