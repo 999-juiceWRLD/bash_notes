@@ -7,6 +7,11 @@ The commands are:
 - `touch`
 - `mv`
 - `pwd`
+- `ls`
+- `cd`
+- `ps`
+- `cat`
+- `history`
 
 1. `echo`: used to display text or variables on the terminal.
 
@@ -55,6 +60,17 @@ mv old-file new-file
 pwd
 # output: /Users/ankaraunifedaisi/developer/bash_tutorial/part_1
 ```
+
+### Misc.
+
+- `ls`: list directory contents.
+
+- `cd`: change directory.
+
+- `ps`: display processes.
+- `cat`: display file content.
+
+- `history`: shows the previous commands entered in terminal.
 
 ## How to make a script?
 
